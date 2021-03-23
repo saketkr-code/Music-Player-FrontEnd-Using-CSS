@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player Frontend</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+  </head>
+  <body>
+    <header id="main-header">
+      <nav id="main-nav">
+        <div class="nav-container container">
+          <div class="logo">
+            <img src="./images/logo/logo.png" alt="Music Player Logo" class="zoom">
+            <h4>Music <span class="bold">Studio</span></h4>
+            <a href="#" class="fav">Favourites</a>
+          </div>
+          <div class="header-aside">
+            <div class="search-box">
+              <button type="submit" class="hdr-btn"><i class="fas fa-search bg-secondary"></i></button>
+              <form>
+                <input type="text" placeholder=" Search">
+              </form>
+              <button type="submit" class="hdr-btn"><i class="fas fa-microphone bg-secondary"></i></button>
+            </div>
+            <i class="fas fa-bell fa-2x bg-primary"></i>
+            <i class="fas fa-user fa-2x bg-primary"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main-content">
+      <div>
+          <section class="artist-showcase">
+              <div class="artist-image">
+                <img src="./images/artist-image/wp2793827.jpg" alt="">
+              </div>
+              <div class="artist-info">
+                <div>
+                  <h2>ColdPlay</h2>
+                  <span class="grey-text">851 Followers</span>
+                </div>
+                <div class="grey-text">British Band</div>
+                <p class="grey-text">Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay.</p>
+                <div>
+                  <a href="" class="play-btn">Play All</a>
+                  <a href="">Follow</a>
+                </div>
+                <div>
+                  <span>247 Tracks | 128 Albums</span>
+                </div>
+              </div>
+          </section>
+          <section id="artist-songs">
+            <div class="container">
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">01.</a>
+                    <img src="./images/queue-tile/1.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">02.</a>
+                    <img src="./images/queue-tile/2.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">03.</a>
+                    <img src="./images/queue-tile/3.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">04.</a>
+                    <img src="./images/queue-tile/4.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">05.</a>
+                    <img src="./images/queue-tile/5.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">06.</a>
+                    <img src="./images/queue-tile/1.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">07.</a>
+                    <img src="./images/queue-tile/2.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+              <div class="song-tile">
+                <div class="song-info">
+                  <div>
+                    <a href="">08.</a>
+                    <img src="./images/queue-tile/3.jpg" alt="" class="image-fit">
+                  </div>
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">Else</h4>
+                  </div>
+                </div>
+                  <div class="symbol">
+                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-plus"></i>
+                  </div>
+              </div>
+            </div>
+          </section>
+      </div>
+      <aside>
+        <section id="similar-artist">
+          <div class="info">
+            <h1 class="big-heading">Similar Artists</h1>
+            <a href="">View All</a>
+          </div>
+            <div class="artists-cards">
+              <div>
+                <img src="./images/tile/tile1.jpg" alt="" class="image-fit
+                ">
+                <div class="div-one">
+                  <h3>Oye Hoye Hoye</h3>
+                  <h4 class="grey-text">Pop Band</h4>
+                </div>
+              </div>
+              <div>
+                <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                <div class="duration">3.51</div>
+              </div>
+            </div>
+            <div class="artists-cards">
+              <div>
+                <img src="./images/tile/tile2.jpg" alt="" class="image-fit
+                ">
+                <div class="div-one">
+                  <h3>Spaceman</h3>
+                  <h4 class="grey-text">Pop Band</h4>
+                </div>
+              </div>
+              <div>
+                <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                <div class="duration">2.58</div>
+              </div>
+            </div>
+            <div class="artists-cards">
+              <div>
+                <img src="./images/tile/tile3.jpg" alt="" class="image-fit
+                ">
+                <div class="div-one">
+                  <h3>Hold on</h3>
+                  <h4 class="grey-text">Pop Band</h4>
+                </div>
+              </div>
+              <div>
+                <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                <div class="duration">4.12</div>
+              </div>
+            </div>
+        </section>
+        <section id="recently-played">
+          <div class="info">
+            <h1 class="big-heading">Recently Played</h1>
+            <a href="">View All</a>
+          </div>
+          <aside id="aside-menu">
+            <div class="container">
+              <div class="q-card">
+                <div class="q-tile">
+                  <i class="fas fa-play-circle"></i>
+                  <img src="./images/queue-tile/1.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>02.</span>
+                  <img src="./images/queue-tile/2.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart heart-red"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>03.</span>
+                  <img src="./images/queue-tile/3.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>04.</span>
+                  <img src="./images/queue-tile/4.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>05.</span>
+                  <img src="./images/queue-tile/5.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart heart-red"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>01</span>
+                  <img src="./images/queue-tile/1.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+              <div class="q-card">
+                <div class="q-tile">
+                  <span>01</span>
+                  <img src="./images/queue-tile/1.jpg" alt="" class="zoom-tile">
+                  <div>
+                    <h3>Mirage</h3>
+                    <h4 class="grey-text">album</h4>
+                  </div>
+                </div>
+                <div class="q-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </section>
+      </aside>
+
+
+    </main>
+    <footer id="music-bar">
+      <div class="player-container">
+        <div class="song-info">
+          <img src="./images/queue-tile/1.jpg" alt="" class="image-fit">
+          <div>
+            <h3>Song Name</h3>
+            <h4 class="grey-text">Artist Name</h4>
+          </div>
+          <div>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-ban"></i>
+          </div>
+        </div>
+        <div class="music-player">
+          <div class="music-buttons">
+            <i class="fas fa-random "></i>
+            <i class="fas fa-step-forward "></i>
+            <i class="far fa-pause-circle fa-2x"></i>
+            <i class="fas fa-step-backward "></i>
+            <i class="fas fa-redo-alt "></i>
+          </div>
+          <div>
+            <div class="time">
+              <a href="#">2:38</a>
+              <div class="seek">
+                <div class="fill"></div>
+                <div class="handle"></div>
+              </div>
+              <a href="#">3:00</a>
+            </div>
+          </div>
+        </div>
+        <div class="player-icons">
+          <i class="fas fa-play-circle"></i>
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-volume-up"></i>
+          <i class="fas fa-expand-alt"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

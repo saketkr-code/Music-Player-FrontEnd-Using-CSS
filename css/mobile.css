@@ -1,0 +1,205 @@
+@media(max-width:1095px) {
+  #latest-release .lr-tile img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #popular-artists .artist-container img {
+    height: 125px;
+    width: 125px;
+  }
+
+}
+
+
+@media(max-width:1240px) {
+  #popular-artists .artist-container img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #main-content .artist-showcase {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 450px;
+  }
+
+}
+
+@media(max-width:1200px) {
+  #latest-english .l-eng img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media(max-width:955px) {
+  #latest-english .l-eng img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #popular-artists .artist-container img {
+    height: 115px;
+    width: 115px;
+  }
+
+  #music-bar .player-container {
+    display: grid;
+    grid-template-columns: 20% 80% 0%;
+  }
+
+}
+
+@media(max-width:898px) {
+  #main-content {
+    display: grid;
+    grid-template-columns: 100% 0%;
+    margin-top: 2.5rem;
+  }
+
+}
+
+@media(max-width:714px) {
+  #main-nav .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #music-bar .player-container {
+    display: none;
+  }
+
+}
+
+@media(max-width:633px) {
+
+  #main-nav .nav-container .header-aside,
+  .fav {
+    display: none;
+  }
+
+  #main-nav .nav-container .logo {
+    margin-right: 40px;
+  }
+
+  body {
+    overflow-x: hidden
+  }
+
+  #image-slider {
+    margin: 20px auto;
+    width: 400px;
+  }
+
+  #slide-frame {
+    height: 200px;
+    overflow: hidden;
+  }
+
+}
+
+
+@media(max-width:533px) {
+  #popular-artists .artist-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #popular-artists .artist-container div {
+    align-self: center;
+    margin: 20px 0;
+  }
+
+  #latest-release .lr-grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  #latest-release .lr-grid .lr-tile {
+    align-self: center;
+  }
+
+  #latest-release .lr-grid .lr-tile .lr-icons {
+    display: none;
+  }
+
+  #stations {
+    display: none;
+  }
+
+  #music-bar {
+    display: none;
+  }
+
+  #latest-english .l-eng {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #latest-english .l-eng div {
+    align-self: center;
+    margin: 15px 0;
+  }
+
+  #theme .theme-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media(max-width:370px) {
+
+
+  #image-slider {
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  #slide-frame {
+    height: 150px;
+    overflow: hidden;
+  }
+
+  #latest-release h3 {
+    font-size: .9rem;
+  }
+
+  #main-content .artist-info {
+    height: 450px;
+  }
+
+  #main-content .artist-showcase {
+    margin-bottom: 500px;
+  }
+
+
+}
+
+
+
+@media(min-width:100px) {
+  #main-content {
+    overflow-x: hidden;
+  }
+
+
+  #latest-release h3 {
+    font-size: .9rem;
+  }
+
+
+  #artist-songs .song-tile .song-info div:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  #artist-songs .song-tile img {
+    height: 45px;
+    width: 45px;
+  }
+
+}
